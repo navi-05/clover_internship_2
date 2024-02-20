@@ -1,0 +1,51 @@
+/* src/components/LocationList.css */
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  padding: 15px;
+  transition: transform 0.2s ease-in-out;
+}
+
+li:hover {
+  transform: scale(1.03);
+}
+
+strong {
+  font-size: 18px;
+}
+
+p {
+  margin: 8px 0;
+  color: #666;
+}
+
+/* src/App.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.location-container {
+  padding: 50px;
+}
