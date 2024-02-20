@@ -1,0 +1,11 @@
+/* src/App.css */
+
+.App {
+  text-align: center;
+}
+
+#hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
