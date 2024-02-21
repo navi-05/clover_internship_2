@@ -1,0 +1,16 @@
+
+/* src/App.css */
+
+.App {
+  text-align: center;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.card {
+  margin: 20px;
+  border: 1px solid grey;
+}
