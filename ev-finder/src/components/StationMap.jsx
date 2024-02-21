@@ -3,7 +3,7 @@ import { useState } from 'react'
 import { useEffect } from 'react'
 import axios from 'axios'
 
-const StationMap = ({ apiKey }) => {
+const StationMap = () => {
 
   const [searchTerm, setSearchTerm] = useState('')
   const [stations, setStations] = useState([])
